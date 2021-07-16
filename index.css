@@ -25,11 +25,11 @@ td {
     justify-content: center;
     align-items: center;
     padding: 10px 0;
+    min-width: 1410px;
 }
 
 table {
-    width: 98%;
-    min-width: 1111px;
+    width: 1400px;
 }
 
 .empty {
