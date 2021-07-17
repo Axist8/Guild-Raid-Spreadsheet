@@ -27,7 +27,7 @@ th {
 
 td {
     background-color: rgb(238, 238, 211);
-    width: 75px;
+    width: 80px;
 }
 
 .tablediv {
@@ -40,7 +40,6 @@ td {
 }
 
 table {
-    width: 1450px;
 }
 
 .empty {
