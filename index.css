@@ -40,7 +40,7 @@ td {
 }
 
 table {
-    width: 1400px;
+    width: 1450px;
 }
 
 .empty {
@@ -53,6 +53,7 @@ table {
 
 .total {
     background-color: rgb(216, 238, 247);
+    width: 100px;
 }
 
 .missed {
