@@ -92,3 +92,7 @@ table {
 .dark {
     background-color: #a56dac;
 }
+
+.kill {
+    color: white;
+}
