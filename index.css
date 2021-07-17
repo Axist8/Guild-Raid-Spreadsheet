@@ -5,6 +5,7 @@
 
 body {
     background-color: rgba(208, 255, 0, 0.164);
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -61,4 +62,5 @@ table {
 .guildmate {
     color:rgb(153, 26, 68);
     font-size: 1.7em;
+    width: 200px;
 }
