@@ -27,4 +27,5 @@ for (const cell of allcells) {
     if (cell.innerText === '0') {
         cell.classList.add('missed');
     }
+    cell.innerText = cell.innerText.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
