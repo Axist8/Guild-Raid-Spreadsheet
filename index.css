@@ -59,11 +59,36 @@ table {
 }
 
 .missed {
-    background-color: rgba(255, 0, 0, 0.349);
+    background-color: rgb(77, 77, 77);
+    color: white;
 }
 
 .guildmate {
     color:rgb(153, 26, 68);
     font-size: 1.7em;
     width: 170px;
+}
+
+.fire {
+    background-color: #c75851;
+}
+
+.water {
+    background-color: #6da5cf;
+}
+
+.earth {
+    background-color: #a8895f;
+}
+
+.light {
+ background-color: #f8d479;
+}
+
+.basic {
+    background-color: #a1a3a5;
+}
+
+.dark {
+    background-color: #a56dac;
 }
