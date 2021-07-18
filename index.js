@@ -6,12 +6,19 @@ for (const table of tables) {
     const cells = table.getElementsByTagName('td');
 
     for (let i = 0; i < 14; i++) {
-        let dailytotal = parseInt(cells[i].innerText)
-            + parseInt(cells[i + 14].innerText)
-            + parseInt(cells[i + 28].innerText);
-        if (isNaN(dailytotal)) {
-            dailytotal = 0;
+        let first = parseInt(cells[i].innerText);
+        if (isNaN(first)) {
+            first = 0;
+        };
+        let second = parseInt(cells[i + 14].innerText);
+        if (isNaN(second)) {
+            second = 0;
         }
+        let third = parseInt(cells[i + 28].innerText);
+        if (isNaN(third)) {
+            third = 0;
+        }
+        const dailytotal = first + second + third;
         cells[i + 42].innerText = dailytotal;
     }
 
