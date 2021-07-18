@@ -30,7 +30,7 @@ td {
     text-align: center;
     background-color: rgb(238, 238, 211);
     width: 80px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .tablediv {
@@ -40,9 +40,6 @@ td {
     align-items: center;
     padding: 10px 0;
     min-width: 1410px;
-}
-
-table {
 }
 
 .empty {
@@ -55,7 +52,7 @@ table {
 
 .total {
     background-color: rgb(216, 238, 247);
-    width: 100px;
+    width: 90px
 }
 
 .missed {
