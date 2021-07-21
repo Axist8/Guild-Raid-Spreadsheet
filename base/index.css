@@ -31,6 +31,7 @@ button {
     padding: 10px 10px;
     min-width: 1480px;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -52,7 +53,12 @@ table, th, td {
     padding: 2px;
 }
 
-th {
+#finaltotal {
+    border-top: 2px solid black;
+}
+
+th,
+#absolutetotal {
     background-color: rgb(231, 219, 202);
     width: 100px;
 }
@@ -91,6 +97,22 @@ td {
     font-size: 1.7em;
     width: 150px;
     border-right: 2px solid black;
+}
+
+.guild {
+    color:rgb(187, 31, 83);
+    font-size: 1.7em;
+    width: 150px;
+    border-right: 2px solid black;
+}
+
+.guilddaily {
+    background-color: azure;
+}
+
+#absolutetotal {
+    background-color: rgb(209, 255, 209);
+    margin-right: 0;
 }
 
 .fire {
