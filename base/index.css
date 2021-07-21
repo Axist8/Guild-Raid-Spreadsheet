@@ -29,6 +29,7 @@ button {
     align-items: center;
     padding: 10px 10px;
     min-width: 1480px;
+    box-sizing: border-box;
 }
 
 h1 {
