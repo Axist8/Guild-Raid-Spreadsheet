@@ -51,7 +51,7 @@ table, th, td {
 
 th {
     background-color: rgb(231, 219, 202);
-    width: 125px;
+    width: 100px;
 }
 .day {
     width: 80px;
@@ -86,7 +86,7 @@ td {
 .guildmate {
     color:rgb(133, 20, 57);
     font-size: 1.7em;
-    width: 125px;
+    width: 150px;
     border-right: 2px solid black;
 }
 
