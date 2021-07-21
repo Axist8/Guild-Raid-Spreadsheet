@@ -5,6 +5,7 @@
 
 body {
     background-color: rgba(84, 133, 156, 0.459);
+    box-sizing: border-box;
 }
 
 nav {
