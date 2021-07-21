@@ -8,13 +8,14 @@ body {
 }
 
 nav {
-    width: 1480px;
+    min-width: 1480px;
+    width: 98%;
     display:flex;
     justify-content: space-between;
 }
 
 button {
-    font-size: 20px;
+    font-size: 22px;
     background-color: rgb(214, 203, 255);
     border-radius: 10px;
     padding: 5px;
@@ -35,7 +36,9 @@ button {
 h1 {
     font-family: 'Tourney', cursive;
     font-size: 3em;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    color: rgb(185, 0, 0);
+    text-shadow: 2px 2px white;
 }
 
 table {
