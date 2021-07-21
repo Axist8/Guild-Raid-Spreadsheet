@@ -39,7 +39,7 @@ h1 {
 
 table {
     table-layout: fixed;
-    width: 100%;
+    width: 98%;
 }
 
 table, th, td {
@@ -60,7 +60,7 @@ th {
 td {
     text-align: center;
     background-color: rgb(238, 238, 211);
-    width: 77px;
+    width: 80px;
     font-size: 14px;
     height: 16px;
 }
