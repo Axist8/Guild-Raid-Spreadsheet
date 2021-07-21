@@ -8,6 +8,21 @@ body {
     margin-bottom: 30px;
 }
 
+nav {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(214, 203, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
 h1 {
     font-family: 'Tourney', cursive;
     font-size: 3em;
