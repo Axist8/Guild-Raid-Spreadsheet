@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(208, 255, 0, 0.164);
+    margin-bottom: 30px;
+}
+
+nav {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(214, 203, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Tourney', cursive;
+    font-size: 3em;
+    margin-bottom: 10px;;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: rgb(231, 219, 202);
+}
+
+
+td {
+    text-align: center;
+    background-color: rgb(238, 238, 211);
+    width: 80px;
+    font-size: 14px;
+}
+
+.tablediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    min-width: 1410px;
+}
+
+.empty {
+    background-color: rgb(151, 161, 172);
+}
+
+.dailytotal {
+    background-color: rgb(238, 245, 244);
+}
+
+.total {
+    background-color: rgb(216, 238, 247);
+    width: 90px
+}
+
+.missed {
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+.guildmate {
+    color:rgb(153, 26, 68);
+    font-size: 1.7em;
+    width: 170px;
+}
+
+.fire {
+    background-color: #c75851;
+}
+
+.water {
+    background-color: #6da5cf;
+}
+
+.earth {
+    background-color: #a8895f;
+}
+
+.light {
+ background-color: #f8d479;
+}
+
+.basic {
+    background-color: #a1a3a5;
+}
+
+.dark {
+    background-color: #a56dac;
+}
+
+.kill {
+    color: white;
+}
