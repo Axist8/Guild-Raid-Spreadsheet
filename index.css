@@ -161,6 +161,7 @@ td {
     background-size: 150px;
     background-position-x: -30px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
 }
 
 .lucy {
@@ -168,6 +169,7 @@ td {
     background-size: 170px;
     background-position-x: -25px;
     background-position-y: -15px;
+    background-repeat: no-repeat;
 }
 
 .ranpang {
@@ -175,6 +177,7 @@ td {
     background-size: 140px;
     background-position-x: -10px;
     background-position-y: -15px;
+    background-repeat: no-repeat;
 }
 
 .futureknight {
@@ -182,6 +185,7 @@ td {
     background-size: 160px;
     background-position-x: -30px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
 }
 
 .miya {
@@ -189,6 +193,7 @@ td {
     background-size: 170px;
     background-position-x: -30px;
     background-position-y: -31px;
+    background-repeat: no-repeat;
 }
 
 .marina {
@@ -196,6 +201,7 @@ td {
     background-size: 140px;
     background-position-x: -27px;
     background-position-y: -35px;
+    background-repeat: no-repeat;
 }
 
 .futureprincess {
@@ -203,6 +209,7 @@ td {
     background-size: 170px;
     background-position-x: -51px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
 }
 
 .eugene {
@@ -210,6 +217,7 @@ td {
     background-size: 190px;
     background-position-x: -20px;
     background-position-y: -1px;
+    background-repeat: no-repeat;
 }
 
 .tinia {
@@ -217,6 +225,7 @@ td {
     background-size: 140px;
     background-position-x: -20px;
     background-position-y: -28px;
+    background-repeat: no-repeat;
 }
 
 .maleknight {
@@ -224,6 +233,7 @@ td {
     background-size: 130px;
     background-position-x: -10px;
     background-position-y: -15px;
+    background-repeat: no-repeat;
 }
 
 .springmiya {
@@ -231,6 +241,7 @@ td {
     background-size: 190px;
     background-position-x: -38px;
     background-position-y: -17px;
+    background-repeat: no-repeat;
 }
 
 .gabriel {
@@ -238,6 +249,7 @@ td {
     background-size: 190px;
     background-position-x: -38px;
     background-position-y: -17px;
+    background-repeat: no-repeat;
 }
 
 .lilith {
@@ -245,6 +257,7 @@ td {
     background-size: 190px;
     background-position-x: -60px;
     background-position-y: -35px;
+    background-repeat: no-repeat;
 }
 
 .mayreel {
@@ -252,6 +265,7 @@ td {
     background-size: 190px;
     background-position-x: -44px;
     background-position-y: -22px;
+    background-repeat: no-repeat;
 }
 
 .vishuvac {
@@ -259,6 +273,7 @@ td {
     background-size: 150px;
     background-position-x: -18px;
     background-position-y: -22px;
+    background-repeat: no-repeat;
 }
 
 .lahn {
@@ -266,6 +281,7 @@ td {
     background-size: 160px;
     background-position-x: -40px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
 }
 
 .lupina {
@@ -273,6 +289,7 @@ td {
     background-size: 170px;
     background-position-x: -30px;
     background-position-y: -15px;
+    background-repeat: no-repeat;
 }
 
 .garam {
@@ -280,4 +297,5 @@ td {
     background-size: 180px;
     background-position-x: -45px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
 }
