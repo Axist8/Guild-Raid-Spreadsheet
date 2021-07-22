@@ -5,6 +5,8 @@
 
 body {
     background-color: rgba(84, 133, 156, 0.459);
+    max-width: 1750px;
+    cursor: url('assets/Craig_Weapon.png'), auto;
 }
 
 nav {
@@ -26,8 +28,12 @@ button {
     background-color: rgb(214, 203, 255);
     border-radius: 10px;
     padding: 5px;
+    cursor: url('assets/Eva_Weapon.png'), auto;
+}
+
+a {
     margin: 15px 40px;
-    cursor: pointer;
+    cursor: url('assets/Eva_Weapon.png'), auto;
 }
 
 .tablediv {
