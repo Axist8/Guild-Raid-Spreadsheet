@@ -5,8 +5,15 @@
 
 body {
     background-color: rgba(84, 133, 156, 0.459);
-    max-width: 1750px;
     cursor: url('assets/Craig_Weapon.png'), auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1500px) {
+    body {
+        display: block;
+    }
 }
 
 nav {
@@ -41,6 +48,7 @@ button {
     align-items: center;
     padding: 10px 10px;
     min-width: 1480px;
+    max-width: 1750px;
     box-sizing: border-box;
     margin-bottom: 30px;
 }
