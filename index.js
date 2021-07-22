@@ -59,7 +59,7 @@ for (const day of dailytotals) {
         }
         counter += personalDailyTotal;
     }
-    day[30].innerText = counter;
+    day[29].innerText = counter;
 }
 
 const allTotals = document.getElementsByClassName('guilddaily');
