@@ -3,7 +3,7 @@ const raidtable = document.getElementById('raidtable');
 const tables = document.getElementsByTagName('table');
 const tablesArray = Array.prototype.slice.call(tables);
 tablesArray.shift();
-tablesArray.pop();
+tablesArray.shift();
 
 for (const table of tablesArray) {
     const cells = table.getElementsByTagName('td');
@@ -59,13 +59,13 @@ for (const day of dailytotals) {
         }
         counter += personalDailyTotal;
     }
-    day[29].innerText = counter;
+    day[tablesArray.length].innerText = counter;
 }
 
 const allTotals = document.getElementsByClassName('guilddaily');
 let absoluteTotal = 0;
 for (let totall of allTotals) {
-    const guildDailyTotal = parseInt(totall.innerText);
+    let guildDailyTotal = parseInt(totall.innerText);
     if (isNaN(guildDailyTotal)) {
         guildDailyTotal = 0;
     }
