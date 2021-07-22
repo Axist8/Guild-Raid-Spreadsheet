@@ -14,7 +14,6 @@ nav {
     width: 98%;
     display:flex;
     justify-content: space-between;
-    margin: 0;
 }
 
 #title {
@@ -23,16 +22,15 @@ nav {
     align-items: center;
 }
 
+.btn {
+    padding: 15px 40px;
+}
+
 button {
     font-size: 22px;
     background-color: rgb(214, 203, 255);
     border-radius: 10px;
     padding: 5px;
-    cursor: url('assets/Eva_Weapon.png'), auto;
-}
-
-a {
-    margin: 15px 40px;
     cursor: url('assets/Eva_Weapon.png'), auto;
 }
 
