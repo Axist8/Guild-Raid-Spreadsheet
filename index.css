@@ -307,7 +307,23 @@ td {
 .garam {
     background-image: url('assets/Garam.png');
     background-size: 180px;
-    background-position-x: -45px;
+    background-position-x: -40px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
+}
+
+.bianca {
+    background-image: url('assets/Bianca.png');
+    background-size: 180px;
+    background-position-x: -20px;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+}
+
+.plitvice {
+    background-image: url('assets/Plitvice.png');
+    background-size: 145px;
+    background-position-x: -15px;
+    background-position-y: -25px;
     background-repeat: no-repeat;
 }
