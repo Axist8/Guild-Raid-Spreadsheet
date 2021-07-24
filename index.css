@@ -171,7 +171,7 @@ td {
 .mk99 {
     background-image: url('assets/Mk.99.png');
     background-size: 150px;
-    background-position-x: -30px;
+    background-position-x: -25px;
     background-position-y: -10px;
     background-repeat: no-repeat;
 }
@@ -266,8 +266,8 @@ td {
 
 .lilith {
     background-image: url('assets/Lilith.png');
-    background-size: 190px;
-    background-position-x: -60px;
+    background-size: 180px;
+    background-position-x: -55px;
     background-position-y: -35px;
     background-repeat: no-repeat;
 }
@@ -325,5 +325,37 @@ td {
     background-size: 145px;
     background-position-x: -15px;
     background-position-y: -25px;
+    background-repeat: no-repeat;
+}
+
+.superPlit {
+    background-image: url('assets/superPlit.png');
+    background-size: 165px;
+    background-position-x: -25px;
+    background-position-y: -15px;
+    background-repeat: no-repeat;
+}
+
+.superGab {
+    background-image: url('assets/superGab.png');
+    background-size: 145px;
+    background-position-x: -15px;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+}
+
+.superKnight {
+    background-image: url('assets/superKnight.png');
+    background-size: 145px;
+    background-position-x: -10px;
+    background-position-y: -15px;
+    background-repeat: no-repeat;
+}
+
+.superRanpang {
+    background-image: url('assets/superRanpang.png');
+    background-size: 185px;
+    background-position-x: -20px;
+    background-position-y: -20px;
     background-repeat: no-repeat;
 }
