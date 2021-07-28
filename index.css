@@ -179,7 +179,7 @@ td {
 .lucy {
     background-image: url('assets/Lucy.png');
     background-size: 170px;
-    background-position-x: -25px;
+    background-position-x: -21px;
     background-position-y: -15px;
     background-repeat: no-repeat;
 }
@@ -194,8 +194,8 @@ td {
 
 .futureknight {
     background-image: url('assets/Future\ Knight.png');
-    background-size: 160px;
-    background-position-x: -30px;
+    background-size: 150px;
+    background-position-x: -21px;
     background-position-y: -10px;
     background-repeat: no-repeat;
 }
@@ -283,7 +283,7 @@ td {
 .vishuvac {
     background-image: url('assets/Vishuvac.png');
     background-size: 150px;
-    background-position-x: -18px;
+    background-position-x: -10px;
     background-position-y: -22px;
     background-repeat: no-repeat;
 }
@@ -357,5 +357,29 @@ td {
     background-size: 185px;
     background-position-x: -25px;
     background-position-y: -20px;
+    background-repeat: no-repeat;
+}
+
+.superNari {
+    background-image: url('assets/superNari.png');
+    background-size: 165px;
+    background-position-x: -30px;
+    background-position-y: -38px;
+    background-repeat: no-repeat;
+}
+
+.oghma {
+    background-image: url('assets/Oghma.png');
+    background-size: 175px;
+    background-position-x: -75px;
+    background-position-y: -24px;
+    background-repeat: no-repeat; 
+}
+
+.girgas {
+    background-image: url('assets/Girgas.png');
+    background-size: 150px;
+    background-position-x: -23px;
+    background-position-y: -15px;
     background-repeat: no-repeat;
 }
