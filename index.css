@@ -383,3 +383,19 @@ td {
     background-position-y: -15px;
     background-repeat: no-repeat;
 }
+
+.lapice {
+    background-image: url('assets/Lapice.png');
+    background-size: 115px;
+    background-position-x: -11px;
+    background-position-y: -47px;
+    background-repeat: no-repeat;
+}
+
+.idolEva {
+    background-image: url('assets/Idol-Captain-Eva.png');
+    background-size: 107px;
+    background-position-x: -11px;
+    background-position-y: -2px;
+    background-repeat: no-repeat;
+}
