@@ -11,12 +11,16 @@
 <body>
     <div class="tablediv">
     <nav>
-        <a href="submerged/index.html"><button id="previous">Previous</button></a>
+        <div class='btn'>
+            <a href="submerged/index.html"><button id="previous">Previous</button></a>
+        </div>
         <div id="title">
             <h1>EQUILIBRIUM</h1>
-            <h5>anniversary</h5>
+            <h5>battle stadium</h5>
         </div>
-        <a><button disabled>Next</button></a>
+        <div class='btn'>
+            <a><button disabled>Next</button></a>
+        </div>
     </nav>
     <table cellpadding="0" cellspacing="0" class="dates">
         <tr>
@@ -27,6 +31,25 @@
             <th class="day">Day 10</th><th class="day">Day 11</th><th class="day">Day 12</th>
             <th class="day">Day 13</th><th class="day">Day 14</th><th>Total</th>
         </tr>
+    </table>
+    <table id='finaltotal'>
+        <tr>
+            <th class="guild">Guild</th>
+            <td class='guilddaily dayone'></td>
+            <td class='guilddaily daytwo'></td>
+            <td class='guilddaily daythree'></td>
+            <td class='guilddaily dayfour'></td>
+            <td class='guilddaily dayfive'></td>
+            <td class='guilddaily daysix'></td>
+            <td class='guilddaily dayseven'></td>
+            <td class='guilddaily dayeight'></td>
+            <td class='guilddaily daynine'></td>
+            <td class='guilddaily dayten'></td>
+            <td class='guilddaily dayeleven'></td>
+            <td class='guilddaily daytwelve'></td>
+            <td class='guilddaily daythirteen'></td>
+            <td class='guilddaily dayfourteen'></td>
+            <td id='absolutetotal'></td>
     </table>
     <table>
         <tr>
@@ -107,7 +130,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty mk99"></th>
+            <th rowspan="3" class="empty girgas"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -169,7 +192,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty ranpang"></th>
+            <th rowspan="3" class="empty superRanpang"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -293,7 +316,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty miya"></th>
+            <th rowspan="3" class="empty superPlit"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -588,68 +611,6 @@
     </table>
     <table>
         <tr>
-            <th rowspan="3" class="guildmate">Navik</th>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <th rowspan="3" class="empty maleknight"></th>
-        </tr>
-        <tr>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-        </tr>
-        <tr>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-            <td class=''></td>
-        </tr>
-        <tr>
-            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
-            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
-            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
-            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
-            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
-            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
-            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
-            <td class="dailytotal dayfourteen"></td><td class="total"></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
             <th rowspan="3" class="guildmate">Hiro</th>
             <td class=''></td>
             <td class=''></td>
@@ -727,7 +688,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty gabriel"></th>
+            <th rowspan="3" class="empty lapice"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -913,7 +874,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty maleknight"></th>
+            <th rowspan="3" class="empty superKnight"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1223,7 +1184,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty lahn"></th>
+            <th rowspan="3" class="empty superGab"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1347,7 +1308,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty gabriel"></th>
+            <th rowspan="3" class="empty mk99"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1409,7 +1370,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty ranpang"></th>
+            <th rowspan="3" class="empty springmiya"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1471,7 +1432,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty ranpang"></th>
+            <th rowspan="3" class="empty superRanpang"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1595,7 +1556,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty gabriel"></th>
+            <th rowspan="3" class="empty superGab"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1657,7 +1618,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty futureknight"></th>
+            <th rowspan="3" class="empty scintilla"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1719,7 +1680,7 @@
             <td class=''></td>
             <td class=''></td>
             <td class=''></td>
-            <th rowspan="3" class="empty lilith"></th>
+            <th rowspan="3" class="empty superNari"></th>
         </tr>
         <tr>
             <td class=''></td>
@@ -1888,24 +1849,67 @@
             <td class="dailytotal dayfourteen"></td><td class="total"></td>
         </tr>
     </table>
-    <table id='finaltotal'>
+    <table>
         <tr>
-            <th class="guild">Guild</th>
-            <td class='guilddaily dayone'></td>
-            <td class='guilddaily daytwo'></td>
-            <td class='guilddaily daythree'></td>
-            <td class='guilddaily dayfour'></td>
-            <td class='guilddaily dayfive'></td>
-            <td class='guilddaily daysix'></td>
-            <td class='guilddaily dayseven'></td>
-            <td class='guilddaily dayeight'></td>
-            <td class='guilddaily daynine'></td>
-            <td class='guilddaily dayten'></td>
-            <td class='guilddaily dayeleven'></td>
-            <td class='guilddaily daytwelve'></td>
-            <td class='guilddaily daythirteen'></td>
-            <td class='guilddaily dayfourteen'></td>
-            <td id='absolutetotal'></td>
+            <th rowspan="3" class="guildmate">Punisher</th>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <th rowspan="3" class="empty alef"></th>
+        </tr>
+        <tr>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+        </tr>
+        <tr>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+            <td class=''></td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
     </table>
     </div>
     <script src="index.js"></script>
