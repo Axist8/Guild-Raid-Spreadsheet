@@ -87,8 +87,14 @@ th,
     background-color: rgb(231, 219, 202);
     width: 100px;
 }
+
 .day {
     width: 80px;
+}
+
+th::selection {
+    background-color: black;
+    color: rgb(255, 184, 184);
 }
 
 
@@ -98,6 +104,11 @@ td {
     width: 80px;
     font-size: 14px;
     height: 16px;
+}
+
+td::selection {
+    background: black;
+    color: white;
 }
 
 .empty {
