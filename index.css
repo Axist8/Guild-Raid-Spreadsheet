@@ -426,3 +426,35 @@ td::selection {
     background-position-y: -5px;
     background-repeat: no-repeat;
 }
+
+.eleanor {
+    background-image: url('assets/eleanor.png');
+    background-size: 157px;
+    background-position-x: -28px;
+    background-position-y: -22px;
+    background-repeat: no-repeat; 
+}
+
+.nari {
+    background-image: url('assets/Nari.png');
+    background-size: 145px;
+    background-position-x: -28px;
+    background-position-y: -20px;
+    background-repeat: no-repeat;
+}
+
+.bari {
+    background-image: url('assets/Bari.png');
+    background-size: 150px;
+    background-position-x: -28px;
+    background-position-y: 1px;
+    background-repeat: no-repeat; 
+}
+
+.arabelle {
+    background-image: url('assets/Arabelle.png');
+    background-size: 150px;
+    background-position-x: -37px;
+    background-position-y: 1px;
+    background-repeat: no-repeat; 
+}
