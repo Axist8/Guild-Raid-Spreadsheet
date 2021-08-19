@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equilibrium Raid Spreadsheet</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tablediv">
+    <nav>
+        <div class='btn'>
+            <a href="../submerged/index.html"><button id="previous">Previous</button></a>
+        </div>
+        <div id="title">
+            <h1>EQUILIBRIUM</h1>
+            <h5>battle stadium</h5>
+        </div>
+        <div class='btn'>
+            <a href="../index.html"><button>Next</button></a>
+        </div>
+    </nav>
+    <table cellpadding="0" cellspacing="0" class="dates">
+        <tr>
+            <th class="empty guildmate"></th>
+            <th class="day">Day 1</th><th class="day">Day 2</th><th class="day">Day 3</th>
+            <th class="day">Day 4</th><th class="day">Day 5</th><th class="day">Day 6</th>
+            <th class="day">Day 7</th><th class="day">Day 8</th><th class="day">Day 9</th>
+            <th class="day">Day 10</th><th class="day">Day 11</th><th class="day">Day 12</th>
+            <th class="day">Day 13</th><th class="day">Day 14</th><th>Total</th>
+        </tr>
+    </table>
+    <table id='finaltotal'>
+        <tr>
+            <th class="guild">Guild</th>
+            <td class='guilddaily dayone'></td>
+            <td class='guilddaily daytwo'></td>
+            <td class='guilddaily daythree'></td>
+            <td class='guilddaily dayfour'></td>
+            <td class='guilddaily dayfive'></td>
+            <td class='guilddaily daysix'></td>
+            <td class='guilddaily dayseven'></td>
+            <td class='guilddaily dayeight'></td>
+            <td class='guilddaily daynine'></td>
+            <td class='guilddaily dayten'></td>
+            <td class='guilddaily dayeleven'></td>
+            <td class='guilddaily daytwelve'></td>
+            <td class='guilddaily daythirteen'></td>
+            <td class='guilddaily dayfourteen'></td>
+            <td id='absolutetotal'></td>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Raiken</th>
+            <td class='basic kill'>12000000</td>
+            <td class='basic'>9601261</td>
+            <td class='earth'>6341885</td>
+            <td class='earth'>5094793</td>
+            <td class='basic'>8180095</td>
+            <td class='water'>5236666</td>
+            <td class='water'>5747441</td>
+            <td class='basic'>7921611</td>
+            <td class='basic'>7510591</td>
+            <td class='basic'>8600041</td>
+            <td class='earth'>5496648</td>
+            <td class='basic'>7855599</td>
+            <td class='basic'>8426041</td>
+            <td class='basic'>8779824</td>
+            <th rowspan="3" class="empty lucy"></th>
+        </tr>
+        <tr>
+            <td class='water'>9392913</td>
+            <td class='water'>7319169</td>
+            <td class='basic'>8851736</td>
+            <td class='earth'>5871842</td>
+            <td class='earth'>5249786</td>
+            <td class='water'>6168188</td>
+            <td class='basic'>7969856</td>
+            <td class='water'>4727098</td>
+            <td class='water'>5852442</td>
+            <td class='water'>5667793</td>
+            <td class='earth'>5891615</td>
+            <td class='water'>5619562</td>
+            <td class='water'>5420164</td>
+            <td class='water'>7184272</td>
+        </tr>
+        <tr>
+            <td class='light'>3883770</td>
+            <td class='earth'>7226476</td>
+            <td class='water'>6944377</td>
+            <td class='earth'>6238916</td>
+            <td class='earth'>6173708</td>
+            <td class='basic'>8318644</td>
+            <td class='water'>7310250</td>
+            <td class='water'>5818096</td>
+            <td class='water'>6726711</td>
+            <td class='earth'>5845552</td>
+            <td class='earth'>5323393</td>
+            <td class='earth'>5224401</td>
+            <td class='earth'>6584372</td>
+            <td class='water'>6508512</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Axist</th>
+            <td class='earth kill'>1237500</td>
+            <td class='earth'>7110239</td>
+            <td class='light kill'>4005017</td>
+            <td class='light'>4985725</td>
+            <td class='water'>3875376</td>
+            <td class='water'>4367245</td>
+            <td class='light'>4452740</td>
+            <td class='light'>4493740</td>
+            <td class='light'>4425593</td>
+            <td class='light'>4379180</td>
+            <td class='light'>4480656</td>
+            <td class='light'>4314420</td>
+            <td class='light'>5246432</td>
+            <td class='light'>4971600</td>
+            <th rowspan="3" class="empty girgas"></th>
+        </tr>
+        <tr>
+            <td class='water kill'>2025000</td>
+            <td class='water'>4500612</td>
+            <td class='water'>4749127</td>
+            <td class='water'>4875863</td>
+            <td class='light'>4653653</td>
+            <td class='water'>4611085</td>
+            <td class='water'>4378377</td>
+            <td class='water'>3870148</td>
+            <td class='water'>3854894</td>
+            <td class='water'>4222946</td>
+            <td class='water'>4522488</td>
+            <td class='water'>4820317</td>
+            <td class='water'>5415432</td>
+            <td class='water'>5173328</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>3440000</td>
+            <td class='light'>4594170</td>
+            <td class='earth'>6518016</td>
+            <td class='earth'>4921035</td>
+            <td class='earth'>5553268</td>
+            <td class='earth'>5466585</td>
+            <td class='earth'>4404179</td>
+            <td class='earth'>5271517</td>
+            <td class='earth'>4887965</td>
+            <td class='earth'>5019016</td>
+            <td class='earth'>4712240</td>
+            <td class='earth'>4892152</td>
+            <td class='earth'>5345832</td>
+            <td class='earth'>5882176</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Soubi</th>
+            <td class='earth'>7474439</td>
+            <td class='basic'>7561004</td>
+            <td class='earth'>5251122</td>
+            <td class='basic'>7237169</td>
+            <td class='basic'>5200151</td>
+            <td class='earth'>4943911</td>
+            <td class='basic'>6642924</td>
+            <td class='earth'>4290300</td>
+            <td class='basic'>6059067</td>
+            <td class='earth'>4308970</td>
+            <td class='earth'>4563836</td>
+            <td class='basic'>6579086</td>
+            <td class='basic'>7412186</td>
+            <td class='earth'>4817792</td>
+            <th rowspan="3" class="empty superRanpang"></th>
+        </tr>
+        <tr>
+            <td class='basic'>8640074</td>
+            <td class='earth'>5527205</td>
+            <td class='water'>3420759</td>
+            <td class='earth'>4860420</td>
+            <td class='earth'>4639741</td>
+            <td class='water'>4061357</td>
+            <td class='water'>4220967</td>
+            <td class='water'>3898360</td>
+            <td class='water'>4197366</td>
+            <td class='water'>4230690</td>
+            <td class='water'>4401820</td>
+            <td class='earth'>4159452</td>
+            <td class='earth'>4723708</td>
+            <td class='water'>4305944</td>
+        </tr>
+        <tr>
+            <td class='light'>5116365</td>
+            <td class='light'>1887916</td>
+            <td class='water'>4289089</td>
+            <td class='water'>5013778</td>
+            <td class='basic'>6784751</td>
+            <td class='basic'>6363453</td>
+            <td class='earth'>4280928</td>
+            <td class='basic'>6983523</td>
+            <td class='earth'>4584270</td>
+            <td class='basic'>6955115</td>
+            <td class='basic'>6684529</td>
+            <td class='water'>4129260</td>
+            <td class='water'>4570473</td>
+            <td class='basic'>7161340</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Sack</th>
+            <td class='basic kill'>1500000</td>
+            <td class='basic'>6259903</td>
+            <td class='basic'>5966165</td>
+            <td class='basic'>5868026</td>
+            <td class='light'>5038399</td>
+            <td class='light'>4996851</td>
+            <td class='light'>4747344</td>
+            <td class='basic'>5313269</td>
+            <td class='basic'>5930549</td>
+            <td class='water'>4403400</td>
+            <td class='light kill'>5158633</td>
+            <td class='light'>5441653</td>
+            <td class='basic'>6188434</td>
+            <td class='light'>6123472</td>
+            <th rowspan="3" class="empty futureknight"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>2025000</td>
+            <td class='light'>5881912</td>
+            <td class='light'>5447478</td>
+            <td class='earth'>4917902</td>
+            <td class='basic'>5983441</td>
+            <td class='earth'>4614753</td>
+            <td class='basic'>5259651</td>
+            <td class='light'>4809460</td>
+            <td class='earth'>4633362</td>
+            <td class='basic'>5673350</td>
+            <td class='water'>5023767</td>
+            <td class='basic'>5887614</td>
+            <td class='earth'>4632448</td>
+            <td class='basic'>6617344</td>
+        </tr>
+        <tr>
+            <td class='light'>4132180</td>
+            <td class='light'>4164146</td>
+            <td class='earth'>5246899</td>
+            <td class='light'>2980771</td>
+            <td class='earth'>4800105</td>
+            <td class='basic'>5819090</td>
+            <td class='earth'>4805952</td>
+            <td class='earth'>4074318</td>
+            <td class='light'>2687005</td>
+            <td class='light'>5604984</td>
+            <td class='basic'>5773734</td>
+            <td class='earth'>4367402</td>
+            <td class='light'>5944008</td>
+            <td class='water'>4768592</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">GaleNova</th>
+            <td class='water'>5782031</td>
+            <td class='earth'>5834699</td>
+            <td class='earth'>5367775</td>
+            <td class='earth'>4953675</td>
+            <td class='water'>3629338</td>
+            <td class='water'>4579153</td>
+            <td class='earth'>4412701</td>
+            <td class='water'>4663666</td>
+            <td class='earth'>4748091</td>
+            <td class='earth'>4826821</td>
+            <td class='earth'>4852618</td>
+            <td class='earth'>4988915</td>
+            <td class='earth'>5326588</td>
+            <td class='basic'>6636144</td>
+            <th rowspan="3" class="empty superPlit"></th>
+        </tr>
+        <tr>
+            <td class='light'>6349871</td>
+            <td class='light'>5686801</td>
+            <td class='earth'>5039283</td>
+            <td class='water'>4087002</td>
+            <td class='water'>4154856</td>
+            <td class='earth'>4698510</td>
+            <td class='water'>3608021</td>
+            <td class='water'>3802865</td>
+            <td class='water'>4140022</td>
+            <td class='water'>4723028</td>
+            <td class='water'>4895344</td>
+            <td class='light'>4541836</td>
+            <td class='water'>4793232</td>
+            <td class='water'>4623360</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>4642249</td>
+            <td class='water'>4332162</td>
+            <td class='earth'>3059386</td>
+            <td class='water'>3712596</td>
+            <td class='basic'>6452540</td>
+            <td class='water'>3735877</td>
+            <td class='water'>3536971</td>
+            <td class='earth'>4796174</td>
+            <td class='water'>3744378</td>
+            <td class='water'>3511353</td>
+            <td class='light'>3915101</td>
+            <td class='water'>4236886</td>
+            <td class='light'>4917048</td>
+            <td class='light'>5111328</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Roxa</th>
+            <td class='water'>4607637</td>
+            <td class='water'>3855923</td>
+            <td class='basic'>3732969</td>
+            <td class='basic'>3732924</td>
+            <td class='basic'>3652423</td>
+            <td class='basic'>3418238</td>
+            <td class='basic'>3464444</td>
+            <td class='basic'>3585390</td>
+            <td class='basic'>3266454</td>
+            <td class='basic'>3460826</td>
+            <td class='basic'>3381450</td>
+            <td class='basic'>4231853</td>
+            <td class='light'>3239216</td>
+            <td class='basic'>4624808</td>
+            <th rowspan="3" class="empty marina"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>1309086</td>
+            <td class='basic'>4251637</td>
+            <td class='light'>6018307</td>
+            <td class='water'>3731408</td>
+            <td class='light'>5313495</td>
+            <td class='light'>2736102</td>
+            <td class='light'>5101517</td>
+            <td class='light'>2505023</td>
+            <td class='light'>5468764</td>
+            <td class='light'>5353846</td>
+            <td class='light'>2949892</td>
+            <td class='light'>2986344</td>
+            <td class='water'>3570950</td>
+            <td class='light'>6523104</td>
+        </tr>
+        <tr>
+            <td class='basic kill'>1389479</td>
+            <td class='light'>3464532</td>
+            <td class='water'>3719908</td>
+            <td class='light'>5809484</td>
+            <td class='water'>3422059</td>
+            <td class='water'>2887631</td>
+            <td class='water'>2858678</td>
+            <td class='water'>3130867</td>
+            <td class='water'>3273529</td>
+            <td class='water'>3459670</td>
+            <td class='water'>3340460</td>
+            <td class='water'>3220155</td>
+            <td class='water'>2146984</td>
+            <td class='water'>3710656</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Avadax</th>
+            <td class='earth kill'>1500000</td>
+            <td class='light'>5987788</td>
+            <td class='earth'>5780660</td>
+            <td class='earth'>5116041</td>
+            <td class='earth'>4714405</td>
+            <td class='water'>4386403</td>
+            <td class='water'>4067105</td>
+            <td class='earth'>4471400</td>
+            <td class='light'>5244157</td>
+            <td class='light'>5496734</td>
+            <td class='light'>5737739</td>
+            <td class='earth'>5598321</td>
+            <td class='earth'>5559722</td>
+            <td class='light'>6045497</td>
+            <th rowspan="3" class="empty futureprincess"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>1500000</td>
+            <td class='water'>5126041</td>
+            <td class='water'>4958969</td>
+            <td class='light'>5357590</td>
+            <td class='water'>4437845</td>
+            <td class='light'>5064797</td>
+            <td class='earth'>4107478</td>
+            <td class='water'>4375989</td>
+            <td class='water'>4291932</td>
+            <td class='earth'>5331985</td>
+            <td class='earth'>5093146</td>
+            <td class='light'>5450887</td>
+            <td class='light'>6199002</td>
+            <td class='water'>4878904</td>
+        </tr>
+        <tr>
+            <td class='light kill'>1500000</td>
+            <td class='earth'>5437470</td>
+            <td class='earth'>4814896</td>
+            <td class='water'>4492561</td>
+            <td class='light'>5355194</td>
+            <td class='earth'>4165500</td>
+            <td class='light'>5072519</td>
+            <td class='light'>4173524</td>
+            <td class='earth'>5070094</td>
+            <td class='water'>4466097</td>
+            <td class='water'>4329353</td>
+            <td class='water'>4148000</td>
+            <td class='earth'>4381493</td>
+            <td class='earth'>5835648</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Misogynist</th>
+            <td class='water kill'>1080000</td>
+            <td class='earth kill'>2776548</td>
+            <td class='water kill'>27195</td>
+            <td class='earth'>3590618</td>
+            <td class='light'>3517398</td>
+            <td class='light'>3570027</td>
+            <td class='light'>3450232</td>
+            <td class='light'>2509770</td>
+            <td class='earth'>2896623</td>
+            <td class='light'>3467833</td>
+            <td class='light'>1999476</td>
+            <td class='earth'>2231182</td>
+            <td class='earth'>2847376</td>
+            <td class='light'>3579568</td>
+            <th rowspan="3" class="empty eugene"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>1080000</td>
+            <td class='water kill'>1633065</td>
+            <td class='earth'>3417833</td>
+            <td class='light'>2849807</td>
+            <td class='earth'>3329407</td>
+            <td class='earth'>3434740</td>
+            <td class='earth'>3095065</td>
+            <td class='earth'>3252430</td>
+            <td class='light'>1906669</td>
+            <td class='earth'>2287035</td>
+            <td class='earth'>2197486</td>
+            <td class='light'>3586198</td>
+            <td class='light'>3992768</td>
+            <td class='earth'>2837008</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>1080000</td>
+            <td class='light'>2554071</td>
+            <td class='light'>2154522</td>
+            <td class='water'>2373576</td>
+            <td class='water'>2276609</td>
+            <td class='water'>2101301</td>
+            <td class='water'>2074491</td>
+            <td class='water'>1938435</td>
+            <td class='water'>2047697</td>
+            <td class='water'>2055248</td>
+            <td class='water'>2706943</td>
+            <td class='water'>2609195</td>
+            <td class='water'>2781400</td>
+            <td class='water'>3294720</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Fei</th>
+            <td class='water kill'>2530460</td>
+            <td class='earth'>2035108</td>
+            <td class='water kill'>4139722</td>
+            <td class='earth'>1839646</td>
+            <td class='earth kill'>622638</td>
+            <td class='earth'>1102335</td>
+            <td class='earth'>1547098</td>
+            <td class='earth'>1736072</td>
+            <td class='earth'>1186192</td>
+            <td class='water'>3517722</td>
+            <td class='earth'>2236676</td>
+            <td class='water'>3393570</td>
+            <td class='earth'>2051619</td>
+            <td class='water'>3579336</td>
+            <th rowspan="3" class="empty tinia"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>1072270</td>
+            <td class='earth kill'>906552</td>
+            <td class='earth'>1912557</td>
+            <td class='water'>3548055</td>
+            <td class='water kill'>1427342</td>
+            <td class='light'>1773949</td>
+            <td class='light'>1923097</td>
+            <td class='light'>1935340</td>
+            <td class='earth'>1728479</td>
+            <td class='earth'>924385</td>
+            <td class='earth'>908971</td>
+            <td class='earth'>929236</td>
+            <td class='earth kill'>1118193</td>
+            <td class='earth'>1134016</td>
+        </tr>
+        <tr>
+            <td class='earth'>2445922</td>
+            <td class='water'>3647852</td>
+            <td class='light'>1952121</td>
+            <td class='light'>1708906</td>
+            <td class='earth'>1574996</td>
+            <td class='water'>3440572</td>
+            <td class='water'>3811772</td>
+            <td class='water'>3469994</td>
+            <td class='water'>3497035</td>
+            <td class='earth'>1552343</td>
+            <td class='water'>3514528</td>
+            <td class='earth'>1946701</td>
+            <td class='light'>3702748</td>
+            <td class='earth'>2172832</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Hiro</th>
+            <td class='basic kill'>2025000</td>
+            <td class='water'>3848676</td>
+            <td class='light'>2539945</td>
+            <td class='earth'>4038764</td>
+            <td class='earth'>3915200</td>
+            <td class='water'>3215510</td>
+            <td class='water'>3125115</td>
+            <td class='water'>3094487</td>
+            <td class='water'>3260979</td>
+            <td class='water'>3122787</td>
+            <td class='light'>4836712</td>
+            <td class='water'>3112901</td>
+            <td class='water'>3327376</td>
+            <td class='basic'>6205504</td>
+            <th rowspan="3" class="empty eleanor"></th>
+        </tr>
+        <tr>
+            <td class='earth kill'>2025000</td>
+            <td class='earth'>5024079</td>
+            <td class='water'>3825366</td>
+            <td class='water'>3253632</td>
+            <td class='water'>2934597</td>
+            <td class='earth'>4307639</td>
+            <td class='light'>2972364</td>
+            <td class='earth'>3739451</td>
+            <td class='earth'>4035696</td>
+            <td class='earth'>3537268</td>
+            <td class='basic'>5658706</td>
+            <td class='light'>5868968</td>
+            <td class='light'>6414948</td>
+            <td class='light'>5874800</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>2640000</td>
+            <td class='light'>2874219</td>
+            <td class='basic'>5626500</td>
+            <td class='light'>2171067</td>
+            <td class='light'>3122498</td>
+            <td class='light'>3055521</td>
+            <td class='earth'>4099527</td>
+            <td class='light'>2968274</td>
+            <td class='light'>5395870</td>
+            <td class='light'>5264803</td>
+            <td class='water'>3302098</td>
+            <td class='earth'>4293520</td>
+            <td class='earth'>4762498</td>
+            <td class='water'>3728720</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Rasya</th>
+            <td class='water kill'>1080000</td>
+            <td class='water'>1672007</td>
+            <td class='basic'>5512915</td>
+            <td class='light'>4508477</td>
+            <td class='water'>1724831</td>
+            <td class='basic'>6123329</td>
+            <td class='water'>1656041</td>
+            <td class='water'>1689132</td>
+            <td class='water'>1594429</td>
+            <td class='basic'>5535554</td>
+            <td class='basic'>5891788</td>
+            <td class='basic'>6049432</td>
+            <td class='basic'>5924564</td>
+            <td class='light kill'>3078406</td>
+            <th rowspan="3" class="empty nari"></th>
+        </tr>
+        <tr>
+            <td class='earth kill'>1237500</td>
+            <td class='basic'>5918308</td>
+            <td class='light'>4479254</td>
+            <td class='water'>1860978</td>
+            <td class='basic'>5799087</td>
+            <td class='water'>1581587</td>
+            <td class='basic'>6261387</td>
+            <td class='basic'>5735934</td>
+            <td class='light'>3982001</td>
+            <td class='water'>1729934</td>
+            <td class='light'>2532026</td>
+            <td class='light'>4198350</td>
+            <td class='light'>4811912</td>
+            <td class='basic'>6262960</td>
+        </tr>
+        <tr>
+            <td class='basic kill'>1500000</td>
+            <td class='light'>5025588</td>
+            <td class='water'>1815833</td>
+            <td class='basic'>6491944</td>
+            <td class='light'>3919518</td>
+            <td class='light'>5019395</td>
+            <td class='light'>4403402</td>
+            <td class='light'>4663532</td>
+            <td class='earth kill'>2891718</td>
+            <td class='light'>2359254</td>
+            <td class='water'>1761760</td>
+            <td class='water'>1998743</td>
+            <td class='water'>2202456</td>
+            <td class='water'>2192432</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Optimus</th>
+            <td class='basic kill'>1237500</td>
+            <td class='light'>4116662</td>
+            <td class='earth'>2189432</td>
+            <td class='light'>1927871</td>
+            <td class='water'>2282837</td>
+            <td class='light'>4589282</td>
+            <td class='light'>3198010</td>
+            <td class='light'>3784888</td>
+            <td class=''>0</td>
+            <td class='light'>4150743</td>
+            <td class='light'>3855468</td>
+            <td class='light'>3707751</td>
+            <td class='light'>2752384</td>
+            <td class='light'>4407568</td>
+            <th rowspan="3" class="empty lilith"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>1237500</td>
+            <td class='earth'>2825678</td>
+            <td class='light'>1948871</td>
+            <td class='earth'>2431131</td>
+            <td class='light kill'>678741</td>
+            <td class='basic'>2719240</td>
+            <td class='basic'>2365250</td>
+            <td class='earth'>2065911</td>
+            <td class=''>0</td>
+            <td class='earth'>2208889</td>
+            <td class='earth'>2276322</td>
+            <td class='earth'>1872195</td>
+            <td class='earth'>2319840</td>
+            <td class='basic'>2542216</td>
+        </tr>
+        <tr>
+            <td class='water kill'>1237500</td>
+            <td class='light kill'>1005864</td>
+            <td class='light'>1282782</td>
+            <td class='basic'>1297081</td>
+            <td class='water'>1854526</td>
+            <td class='earth'>1176634</td>
+            <td class='earth'>1117629</td>
+            <td class='basic'>1139271</td>
+            <td class=''>0</td>
+            <td class='basic'>1187312</td>
+            <td class='basic'>1192245</td>
+            <td class='basic'>1212995</td>
+            <td class=''>0</td>
+            <td class='earth'>1175808</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">EFX</th>
+            <td class='light'>2481172</td>
+            <td class='water'>5681353</td>
+            <td class='light'>3790334</td>
+            <td class='basic'>4252876</td>
+            <td class='water'>4680805</td>
+            <td class='water'>5573380</td>
+            <td class='basic'>3890205</td>
+            <td class='water'>4459790</td>
+            <td class='light'>2858705</td>
+            <td class='water'>4972166</td>
+            <td class='earth'>4378711</td>
+            <td class='water'>5018105</td>
+            <td class='earth'>4463856</td>
+            <td class='water'>5410992</td>
+            <th rowspan="3" class="empty eugene"></th>
+        </tr>
+        <tr>
+            <td class='basic kill'>1119538</td>
+            <td class='basic'>5034130</td>
+            <td class='water'>5023778</td>
+            <td class='light'>3669388</td>
+            <td class='basic'>4338485</td>
+            <td class='light'>1900907</td>
+            <td class='earth'>4202811</td>
+            <td class='basic'>4096482</td>
+            <td class='basic'>4563239</td>
+            <td class='basic'>3597605</td>
+            <td class='basic'>4262386</td>
+            <td class='basic'>4479989</td>
+            <td class='earth'>3340080</td>
+            <td class='earth'>4144896</td>
+        </tr>
+        <tr>
+            <td class='light kill'>886648</td>
+            <td class='light'>4574854</td>
+            <td class='earth'>3391804</td>
+            <td class='water'>5611121</td>
+            <td class='light'>2247811</td>
+            <td class='basic'>3981256</td>
+            <td class='water'>4817334</td>
+            <td class='earth'>4365505</td>
+            <td class='water'>5153540</td>
+            <td class='earth'>2809714</td>
+            <td class='water'>4883035</td>
+            <td class='earth'>4127301</td>
+            <td class='water'>5280289</td>
+            <td class='light'>4639720</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Kingsum</th>
+            <td class='basic kill'>1080000</td>
+            <td class='earth'>2186435</td>
+            <td class='water'>1581240</td>
+            <td class='basic'>3922158</td>
+            <td class='basic'>554761</td>
+            <td class='light'>4078147</td>
+            <td class='earth'>1482375</td>
+            <td class='basic'>1366781</td>
+            <td class='basic'>3861914</td>
+            <td class='basic'>2396611</td>
+            <td class='earth'>1319741</td>
+            <td class='basic'>3697259</td>
+            <td class='basic'>4014720</td>
+            <td class='basic'>4270496</td>
+            <th rowspan="3" class="empty superNari"></th>
+        </tr>
+        <tr>
+            <td class='earth kill'>1500000</td>
+            <td class='earth'>599476</td>
+            <td class='water'>475891</td>
+            <td class='light'>1574704</td>
+            <td class='earth'>1784264</td>
+            <td class='basic'>1538777</td>
+            <td class='light'>2028247</td>
+            <td class='basic'>3688357</td>
+            <td class='basic'>1495319</td>
+            <td class='earth'>1317599</td>
+            <td class='light'>2093240</td>
+            <td class='earth'>1032835</td>
+            <td class='basic'>1299240</td>
+            <td class='light'>1332144</td>
+        </tr>
+        <tr>
+            <td class='basic kill'>5765625</td>
+            <td class='earth'>2858333</td>
+            <td class='light kill'>3869251</td>
+            <td class='earth'>578119</td>
+            <td class='light'>1966413</td>
+            <td class='earth'>1363888</td>
+            <td class='basic'>1290704</td>
+            <td class='earth'>1448188</td>
+            <td class='earth'>1327054</td>
+            <td class='basic'>831333</td>
+            <td class='earth'>998891</td>
+            <td class='earth'>1350109</td>
+            <td class='earth'>1286528</td>
+            <td class='basic'>1343072</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Visage</th>
+            <td class='light'>2452465</td>
+            <td class='water'>3633656</td>
+            <td class='earth'>2325424</td>
+            <td class='water'>3439357</td>
+            <td class='water'>3173088</td>
+            <td class='water'>3057169</td>
+            <td class='water'>2797214</td>
+            <td class='water'>3378765</td>
+            <td class='light'>1946771</td>
+            <td class='water'>3371506</td>
+            <td class='water'>3566449</td>
+            <td class='light'>879511</td>
+            <td class='light'>1468418</td>
+            <td class='water'>3605472</td>
+            <th rowspan="3" class="empty mayreel"></th>
+        </tr>
+        <tr>
+            <td class='earth'>2472209</td>
+            <td class='earth'>2247528</td>
+            <td class='earth'>3755278</td>
+            <td class='earth'>2108933</td>
+            <td class='earth'>2186264</td>
+            <td class='earth'>2113758</td>
+            <td class='earth'>2130893</td>
+            <td class='earth'>2037911</td>
+            <td class='earth'>1965765</td>
+            <td class='earth'>1886877</td>
+            <td class='earth'>1955484</td>
+            <td class='earth'>1943962</td>
+            <td class='light'>655126</td>
+            <td class='earth'>2069552</td>
+        </tr>
+        <tr>
+            <td class='water'>3287836</td>
+            <td class='light'>2374954</td>
+            <td class='earth'>1875916</td>
+            <td class='light'>1875052</td>
+            <td class='light'>2150515</td>
+            <td class='light'>2059230</td>
+            <td class='light'>997116</td>
+            <td class='basic kill'>617788</td>
+            <td class='water'>3331451</td>
+            <td class='light'>1080992</td>
+            <td class='light'>2250139</td>
+            <td class='water'>3329609</td>
+            <td class='light'>1638503</td>
+            <td class='light'>1086608</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Tofu</th>
+            <td class='light'>3493826</td>
+            <td class='basic'>7035697</td>
+            <td class='earth'>3525477</td>
+            <td class='earth'>3479915</td>
+            <td class='basic'>7461983</td>
+            <td class='basic'>7477194</td>
+            <td class='basic'>6721712</td>
+            <td class='basic'>6796542</td>
+            <td class='basic'>6879924</td>
+            <td class='basic'>6732348</td>
+            <td class='basic'>6315581</td>
+            <td class='basic'>6914206</td>
+            <td class='basic'>7202884</td>
+            <td class='basic'>7984664</td>
+            <th rowspan="3" class="empty vishuvac"></th>
+        </tr>
+        <tr>
+            <td class='earth'>4358902</td>
+            <td class='earth'>4611206</td>
+            <td class='light'>4152551</td>
+            <td class='light'>3982629</td>
+            <td class='earth'>3682658</td>
+            <td class='earth'>3472628</td>
+            <td class='earth'>3346231</td>
+            <td class='earth'>3307337</td>
+            <td class='earth'>3247109</td>
+            <td class='earth'>3228045</td>
+            <td class='earth'>3434851</td>
+            <td class='earth'>3359591</td>
+            <td class='earth'>3748520</td>
+            <td class='earth'>3628304</td>
+        </tr>
+        <tr>
+            <td class='earth'>5176640</td>
+            <td class='light'>4643298</td>
+            <td class='earth'>5006614</td>
+            <td class='basic'>5755214</td>
+            <td class='light'>3848397</td>
+            <td class='light'>3816789</td>
+            <td class='light'>2414315</td>
+            <td class='light'>3490409</td>
+            <td class='light'>2076485</td>
+            <td class='light'>3515728</td>
+            <td class='light'>3658064</td>
+            <td class='light'>2987401</td>
+            <td class='light'>4303104</td>
+            <td class='light'>4484192</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Liutus</th>
+            <td class='water kill'>5765625</td>
+            <td class='water'>7851585</td>
+            <td class='earth kill'>2304907</td>
+            <td class='water'>7765260</td>
+            <td class='basic kill'>1477585</td>
+            <td class='water'>7142257</td>
+            <td class='water'>6385868</td>
+            <td class='water'>5500273</td>
+            <td class='light'>5531821</td>
+            <td class='water'>6065955</td>
+            <td class='water'>5492742</td>
+            <td class='light'>6240795</td>
+            <td class='water'>7867288</td>
+            <td class='water'>8331760</td>
+            <th rowspan="3" class="empty mayreel"></th>
+        </tr>
+        <tr>
+            <td class='earth kill'>2670711</td>
+            <td class='light'>851564</td>
+            <td class='water'>8172230</td>
+            <td class='light'>5491068</td>
+            <td class='water'>7751194</td>
+            <td class='light'>4823525</td>
+            <td class='light'>4703405</td>
+            <td class='earth'>3655137</td>
+            <td class='earth'>3324064</td>
+            <td class='light'>5411293</td>
+            <td class='earth'>3517128</td>
+            <td class='water'>7131699</td>
+            <td class='earth'>4872744</td>
+            <td class='basic'>7387024</td>
+        </tr>
+        <tr>
+            <td class='light'>6581286</td>
+            <td class='basic'>3626045</td>
+            <td class='light'>5591558</td>
+            <td class='earth'>2292000</td>
+            <td class='light'>5512623</td>
+            <td class='earth'>3162266</td>
+            <td class='earth'>3461288</td>
+            <td class='light'>5306489</td>
+            <td class='water'>6961016</td>
+            <td class='earth'>4193639</td>
+            <td class='light'>5458712</td>
+            <td class='earth'>4168412</td>
+            <td class='light'>6899616</td>
+            <td class='light'>7262400</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Ciel</th>
+            <td class='earth kill'>25561</td>
+            <td class=''>0</td>
+            <td class='earth'>2312561</td>
+            <td class='water'>4873144</td>
+            <td class='water'>4778449</td>
+            <td class='water'>4755908</td>
+            <td class='water'>5210268</td>
+            <td class='water'>2701508</td>
+            <td class='water'>5021253</td>
+            <td class='water'>4747717</td>
+            <td class='water'>4589140</td>
+            <td class='water'>5297742</td>
+            <td class='water'>5291920</td>
+            <td class='water'>5569560</td>
+            <th rowspan="3" class="empty superKnight"></th>
+        </tr>
+        <tr>
+            <td class='earth'>2795471</td>
+            <td class=''>0</td>
+            <td class='water'>5747048</td>
+            <td class='earth'>2002516</td>
+            <td class='earth'>2140680</td>
+            <td class='earth'>2076739</td>
+            <td class='basic'>1139750</td>
+            <td class='earth'>1426594</td>
+            <td class='basic'>1109087</td>
+            <td class='earth'>1566924</td>
+            <td class='basic'>1101923</td>
+            <td class='earth'>1831913</td>
+            <td class='basic'>1248686</td>
+            <td class='earth'>2270048</td>
+        </tr>
+        <tr>
+            <td class='light'>5183904</td>
+            <td class=''>0</td>
+            <td class='basic'>1348690</td>
+            <td class='basic'>1243338</td>
+            <td class='basic'>1164879</td>
+            <td class='basic'>1159329</td>
+            <td class='earth'>1240995</td>
+            <td class='basic'>1193279</td>
+            <td class='earth'>1599155</td>
+            <td class='basic'>1163815</td>
+            <td class='earth'>1640406</td>
+            <td class='basic'>1131014</td>
+            <td class='earth'>1591372</td>
+            <td class='basic'>1269056</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Isabel</th>
+            <td class='earth'>4283818</td>
+            <td class='earth'>466428</td>
+            <td class='light'>5401250</td>
+            <td class='light'>2986102</td>
+            <td class='light'>4762884</td>
+            <td class='earth'>2448815</td>
+            <td class='basic'>2909137</td>
+            <td class='light'>5076800</td>
+            <td class='light'>4826072</td>
+            <td class='light'>4914510</td>
+            <td class=''>0</td>
+            <td class='light'>3703785</td>
+            <td class='light'>5359740</td>
+            <td class='light'>5351168</td>
+            <th rowspan="3" class="empty bari"></th>
+        </tr>
+        <tr>
+            <td class=''>0</td>
+            <td class='light'>3315505</td>
+            <td class='earth'>1488052</td>
+            <td class='earth'>3167772</td>
+            <td class='basic'>3129864</td>
+            <td class='earth'>2717711</td>
+            <td class='light'>4707148</td>
+            <td class='basic'>2916275</td>
+            <td class='basic'>2927439</td>
+            <td class='basic'>2887145</td>
+            <td class=''>0</td>
+            <td class='basic'>2928570</td>
+            <td class='basic kill'>1792399</td>
+            <td class='basic'>3027692</td>
+        </tr>
+        <tr>
+            <td class=''>0</td>
+            <td class='earth'>3428239</td>
+            <td class='earth'>3434901</td>
+            <td class='basic'>2406540</td>
+            <td class='earth'>2569471</td>
+            <td class='earth'>4584896</td>
+            <td class='earth'>2393212</td>
+            <td class='earth'>2604537</td>
+            <td class='earth'>2594441</td>
+            <td class='earth'>2610966</td>
+            <td class=''>0</td>
+            <td class='earth'>2725499</td>
+            <td class='earth'>2671152</td>
+            <td class='earth'>2630608</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">ogring</th>
+            <td class='basic kill'>9750000</td>
+            <td class='basic'>10387413</td>
+            <td class='basic'>9271515</td>
+            <td class='earth'>5021087</td>
+            <td class='earth'>6206759</td>
+            <td class='earth'>6598507</td>
+            <td class='water'>5526017</td>
+            <td class=''>0</td>
+            <td class=''>0</td>
+            <td class='water'>5392755</td>
+            <td class='earth'>4986413</td>
+            <td class=''>0</td>
+            <td class=''>0</td>
+            <td class='light'>5874288</td>
+            <th rowspan="3" class="empty lupina"></th>
+        </tr>
+        <tr>
+            <td class='water kill'>2607087</td>
+            <td class='water'>6494381</td>
+            <td class='water'>5901854</td>
+            <td class='basic'>8831922</td>
+            <td class='water'>5625247</td>
+            <td class='water'>5426625</td>
+            <td class='light'>4937291</td>
+            <td class=''>0</td>
+            <td class=''>0</td>
+            <td class='light'>5604323</td>
+            <td class='water'>5293949</td>
+            <td class=''>0</td>
+            <td class=''>0</td>
+            <td class='basic'>8752896</td>
+        </tr>
+        <tr>
+            <td class='light kill'>1534944</td>
+            <td class='light'>6798435</td>
+            <td class='light'>6186230</td>
+            <td class='light'>6385550</td>
+            <td class='light'>6094341</td>
+            <td class='light'>4830202</td>
+            <td class='earth'>6075620</td>
+            <td class=''>0</td>
+            <td class=''>0</td>
+            <td class='earth'>5213869</td>
+            <td class='light'>2435991</td>
+            <td class=''>0</td>
+            <td class=''>0</td>
+            <td class='water'>6476728</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">ghoti0315</th>
+            <td class='basic kill'>1080000</td>
+            <td class='basic'>7369696</td>
+            <td class='light'>4772360</td>
+            <td class='basic'>6595923</td>
+            <td class='light'>4164448</td>
+            <td class='basic'>6952585</td>
+            <td class='light'>2180678</td>
+            <td class='earth'>2786561</td>
+            <td class='light'>3547177</td>
+            <td class='light'>2201286</td>
+            <td class='basic'>6646558</td>
+            <td class='basic'>6757293</td>
+            <td class='basic'>7210192</td>
+            <td class='light'>4238322</td>
+            <th rowspan="3" class="empty arabelle"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>1080000</td>
+            <td class='light'>5059259</td>
+            <td class='light'>3107190</td>
+            <td class='light'>2806322</td>
+            <td class='earth'>4994068</td>
+            <td class='light'>1407918</td>
+            <td class='basic'>6755424</td>
+            <td class='light'>2624854</td>
+            <td class='basic'>6140123</td>
+            <td class='basic'>5842716</td>
+            <td class='earth'>3211237</td>
+            <td class='light'>3900208</td>
+            <td class='light'>4056560</td>
+            <td class='light'>3378884</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>1080000</td>
+            <td class='light'>3170149</td>
+            <td class='earth'>4966570</td>
+            <td class='light'>3046533</td>
+            <td class='light'>2812052</td>
+            <td class='light'>2762598</td>
+            <td class='light'>823998</td>
+            <td class='basic'>6856501</td>
+            <td class=''>X</td>
+            <td class='earth'>2955515</td>
+            <td class='earth'>2594879</td>
+            <td class='earth'>2453356</td>
+            <td class='earth'>3254196</td>
+            <td class='basic'>7698080</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Trouble</th>
+            <td class='light kill'>1237500</td>
+            <td class='earth'>1568695</td>
+            <td class='light'>2616520</td>
+            <td class='light'>4681775</td>
+            <td class='light'>4461650</td>
+            <td class='light'>4185153</td>
+            <td class='light'>4321564</td>
+            <td class='light'>4361622</td>
+            <td class='earth'>1603032</td>
+            <td class='light'>4325177</td>
+            <td class='light'>2249640</td>
+            <td class='light'>2185345</td>
+            <td class='light'>4625704</td>
+            <td class='light'>4642656</td>
+            <th rowspan="3" class="empty springmiya"></th>
+        </tr>
+        <tr>
+            <td class='basic kill'>1237500</td>
+            <td class='earth'>4474367</td>
+            <td class='basic kill'>3208957</td>
+            <td class='basic'>3844821</td>
+            <td class='basic'>2998599</td>
+            <td class='basic'>3436790</td>
+            <td class='basic'>2765382</td>
+            <td class='earth'>1742069</td>
+            <td class='light'>4185051</td>
+            <td class='basic'>3599668</td>
+            <td class='earth'>1744799</td>
+            <td class='basic'>3419751</td>
+            <td class='basic'>3278552</td>
+            <td class='basic'>3535696</td>
+        </tr>
+        <tr>
+            <td class='water kill'>1237500</td>
+            <td class='earth'>2882675</td>
+            <td class='earth'>1591036</td>
+            <td class='earth'>1478764</td>
+            <td class='earth'>1786960</td>
+            <td class='earth'>1788469</td>
+            <td class='earth'>1635971</td>
+            <td class='basic'>3228115</td>
+            <td class='basic'>3489429</td>
+            <td class='earth'>1594574</td>
+            <td class='basic'>3301633</td>
+            <td class='earth'>1759463</td>
+            <td class='earth'>1815640</td>
+            <td class='earth'>1860208</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Akorus</th>
+            <td class='light'>1422213</td>
+            <td class='light kill'>2312536</td>
+            <td class='earth'>3083911</td>
+            <td class='basic'>3937597</td>
+            <td class='basic'>4454660</td>
+            <td class='earth kill'>1522895</td>
+            <td class='basic'>4110833</td>
+            <td class='basic'>3818074</td>
+            <td class='earth'>2669069</td>
+            <td class='light'>1562025</td>
+            <td class='earth'>2511240</td>
+            <td class=''>0</td>
+            <td class='earth'>3599612</td>
+            <td class=''>0</td>
+            <th rowspan="3" class="empty superRanpang"></th>
+        </tr>
+        <tr>
+            <td class='water'>2233165</td>
+            <td class='earth'>3242434</td>
+            <td class='earth'>3126524</td>
+            <td class='light'>1802434</td>
+            <td class='earth'>2539947</td>
+            <td class='basic'>3987522</td>
+            <td class='earth'>2497622</td>
+            <td class='light'>1142714</td>
+            <td class='basic'>4153483</td>
+            <td class='basic'>4439286</td>
+            <td class='basic'>3912209</td>
+            <td class=''>0</td>
+            <td class='earth'>2115581</td>
+            <td class=''>0</td>
+        </tr>
+        <tr>
+            <td class='water kill'>739331</td>
+            <td class='basic'>4393116</td>
+            <td class='earth kill'>1006926</td>
+            <td class='earth'>2966441</td>
+            <td class='light'>2072718</td>
+            <td class='earth'>2454713</td>
+            <td class='light'>2045520</td>
+            <td class='earth'>2831127</td>
+            <td class='light'>2111928</td>
+            <td class='earth'>2456530</td>
+            <td class='light'>1617694</td>
+            <td class=''>0</td>
+            <td class='earth'>2710755</td>
+            <td class=''>0</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">KofBones</th>
+            <td class='basic kill'>4500000</td>
+            <td class='light'>2328840</td>
+            <td class='light'>4683378</td>
+            <td class='basic'>5188618</td>
+            <td class='basic'>5024379</td>
+            <td class='basic kill'>4952996</td>
+            <td class='basic'>4902252</td>
+            <td class='light'>2473525</td>
+            <td class='basic'>5202168</td>
+            <td class='basic'>4934288</td>
+            <td class='light'>3608771</td>
+            <td class='basic'>2827360</td>
+            <td class='basic'>5259020</td>
+            <td class='light'>4862168</td>
+            <th rowspan="3" class="empty lahn"></th>
+        </tr>
+        <tr>
+            <td class='earth kill'>4500000</td>
+            <td class='basic'>5488843</td>
+            <td class='basic'>5636215</td>
+            <td class='light'>5159710</td>
+            <td class='light'>4662383</td>
+            <td class='earth'>3904890</td>
+            <td class='light'>4447350</td>
+            <td class='basic'>4907878</td>
+            <td class='light'>3769138</td>
+            <td class='light'>1093763</td>
+            <td class='basic kill'>1750454</td>
+            <td class='light'>4293706</td>
+            <td class='light'>4872200</td>
+            <td class='basic'>5526616</td>
+        </tr>
+        <tr>
+            <td class='light'>2705840</td>
+            <td class='water'>1464249</td>
+            <td class=''>0</td>
+            <td class='earth'>1793687</td>
+            <td class='earth'>1516539</td>
+            <td class='light kill'>415055</td>
+            <td class='earth'>1560545</td>
+            <td class='earth'>1748851</td>
+            <td class='earth'>1408384</td>
+            <td class='earth'>1629331</td>
+            <td class='earth kill'>1162885</td>
+            <td class='earth'>1591584</td>
+            <td class='earth'>1712536</td>
+            <td class='earth'>1579728</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Imanaa</th>
+            <td class='basic kill'>3440000</td>
+            <td class='water kill'>4103244</td>
+            <td class='water'>5204889</td>
+            <td class='water'>5429521</td>
+            <td class='light'>5572697</td>
+            <td class='water'>5290660</td>
+            <td class='water'>3650297</td>
+            <td class='water'>4922029</td>
+            <td class='light'>2826456</td>
+            <td class='water'>5060933</td>
+            <td class='light'>3687597</td>
+            <td class='earth'>2016919</td>
+            <td class='water'>4807284</td>
+            <td class='basic'>3407136</td>
+            <th rowspan="3" class="empty superGab"></th>
+        </tr>
+        <tr>
+            <td class='water kill'>4500000</td>
+            <td class='basic kill'>1547641</td>
+            <td class='basic'>4001113</td>
+            <td class='earth'>2672187</td>
+            <td class='water'>5008417</td>
+            <td class='water'>3949458</td>
+            <td class='water'>5261899</td>
+            <td class='earth'>2144872</td>
+            <td class='light'>4599410</td>
+            <td class='earth'>2137771</td>
+            <td class='water'>3961849</td>
+            <td class='water'>4100706</td>
+            <td class='water'>3651280</td>
+            <td class='basic'>5910352</td>
+        </tr>
+        <tr>
+            <td class='light kill'>4500000</td>
+            <td class='earth'>685916</td>
+            <td class='light'>5956754</td>
+            <td class='light'>6100983</td>
+            <td class='earth'>2507103</td>
+            <td class='earth'>1622976</td>
+            <td class='earth'>2212868</td>
+            <td class='light'>4601991</td>
+            <td class='light kill'>56024</td>
+            <td class='water'>3559819</td>
+            <td class='earth'>2123498</td>
+            <td class='water'>3397504</td>
+            <td class='basic'>3401908</td>
+            <td class='basic'>5321440</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Yang</th>
+            <td class='light kill'>3059785</td>
+            <td class=''>0</td>
+            <td class='light'>2933892</td>
+            <td class='light'>4828126</td>
+            <td class='water'>6336764</td>
+            <td class='water'>5345048</td>
+            <td class='water'>5275190</td>
+            <td class='water'>4985625</td>
+            <td class='light'>4311493</td>
+            <td class='water'>4750429</td>
+            <td class='water'>3959597</td>
+            <td class='water'>4652722</td>
+            <td class='water'>4838624</td>
+            <td class='water'>5195216</td>
+            <th rowspan="3" class="empty scintilla"></th>
+        </tr>
+        <tr>
+            <td class='water kill'>7500000</td>
+            <td class=''>0</td>
+            <td class='water'>5635530</td>
+            <td class='water'>5287952</td>
+            <td class='light'>4507244</td>
+            <td class='earth'>3292633</td>
+            <td class='light'>3816811</td>
+            <td class='light'>2333703</td>
+            <td class='water'>4761704</td>
+            <td class='light'>4607757</td>
+            <td class='light'>4193600</td>
+            <td class='light'>4837177</td>
+            <td class='light'>5140576</td>
+            <td class='light'>4941040</td>
+        </tr>
+        <tr>
+            <td class='basic'>6380462</td>
+            <td class=''>0</td>
+            <td class='basic'>4681963</td>
+            <td class='earth'>3078789</td>
+            <td class='earth'>3165885</td>
+            <td class='water'>3300678</td>
+            <td class='earth'>2987957</td>
+            <td class='earth'>3089259</td>
+            <td class='earth'>3120546</td>
+            <td class='earth'>2992992</td>
+            <td class='earth'>2895664</td>
+            <td class='earth'>3150071</td>
+            <td class='earth'>3305488</td>
+            <td class='earth'>4577728</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Keomi</th>
+            <td class='water kill'>1500000</td>
+            <td class='basic'>6802084</td>
+            <td class='basic kill'>6046689</td>
+            <td class='basic'>5245567</td>
+            <td class='basic'>5124589</td>
+            <td class='basic'>5610196</td>
+            <td class='basic'>5148382</td>
+            <td class='basic'>5362058</td>
+            <td class='water'>2653137</td>
+            <td class='basic'>4755071</td>
+            <td class='basic'>4509765</td>
+            <td class='basic'>5213524</td>
+            <td class='basic'>5213816</td>
+            <td class='basic'>5752864</td>
+            <th rowspan="3" class="empty superNari"></th>
+        </tr>
+        <tr>
+            <td class='light kill'>2640000</td>
+            <td class='water'>5613307</td>
+            <td class='water'>4916872</td>
+            <td class='earth'>3429021</td>
+            <td class='earth'>3210475</td>
+            <td class='water'>4288235</td>
+            <td class='earth'>3906207</td>
+            <td class='water'>2930595</td>
+            <td class='earth'>3624484</td>
+            <td class='water'>3529207</td>
+            <td class='water'>3914507</td>
+            <td class='earth'>3622394</td>
+            <td class='water'>3228284</td>
+            <td class='water'>3213072</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>5765625</td>
+            <td class='light'>4220588</td>
+            <td class='light'>2092394</td>
+            <td class='light'>3101945</td>
+            <td class='light'>2900677</td>
+            <td class='earth'>1948972</td>
+            <td class='earth'>1817341</td>
+            <td class='earth'>2729438</td>
+            <td class='light'>1906550</td>
+            <td class='earth'>1720320</td>
+            <td class='earth'>1887279</td>
+            <td class='light'>1611510</td>
+            <td class='earth'>1901696</td>
+            <td class='light'>1881664</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Kier</th>
+            <td class='light kill'>3440000</td>
+            <td class='basic'>9268956</td>
+            <td class='light'>8537577</td>
+            <td class='basic'>8435423</td>
+            <td class='basic'>7298296</td>
+            <td class='earth'>5741638</td>
+            <td class='basic'>7694600</td>
+            <td class='basic'>7938839</td>
+            <td class='water kill'>4317335</td>
+            <td class='basic'>7775414</td>
+            <td class='earth'>5624520</td>
+            <td class='basic'>7541744</td>
+            <td class='basic'>9295232</td>
+            <td class='basic'>8777376</td>
+            <th rowspan="3" class="empty miya"></th>
+        </tr>
+        <tr>
+            <td class='earth'>7340697</td>
+            <td class='water'>4937552</td>
+            <td class='water'>5315658</td>
+            <td class='earth'>4382344</td>
+            <td class='light'>2877788</td>
+            <td class='water'>5307587</td>
+            <td class='earth'>4641907</td>
+            <td class='earth'>4190404</td>
+            <td class='light'>1422814</td>
+            <td class='light'>4408553</td>
+            <td class='water kill'>4370947</td>
+            <td class='water'>4813471</td>
+            <td class='water'>5848396</td>
+            <td class='water'>5496448</td>
+        </tr>
+        <tr>
+            <td class='earth kill'>2213381</td>
+            <td class='light'>5195496</td>
+            <td class='light'>2873821</td>
+            <td class='light'>2552740</td>
+            <td class='water'>5003156</td>
+            <td class='light'>4348910</td>
+            <td class='light'>4834286</td>
+            <td class='light'>4178823</td>
+            <td class='earth'>5913032</td>
+            <td class='earth'>4580711</td>
+            <td class='light'>4482655</td>
+            <td class='light'>4409769</td>
+            <td class='light'>5034592</td>
+            <td class='light'>5327840</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Yata</th>
+            <td class='basic kill'>2640000</td>
+            <td class='earth'>3473662</td>
+            <td class='earth'>3497627</td>
+            <td class='basic'>5623631</td>
+            <td class='light'>5636431</td>
+            <td class='light'>5528849</td>
+            <td class='light'>2181342</td>
+            <td class='light'>5774553</td>
+            <td class='light'>4564693</td>
+            <td class='light'>6052931</td>
+            <td class='light'>3261426</td>
+            <td class='light'>3064915</td>
+            <td class='light'>3554832</td>
+            <td class='basic'>6384544</td>
+            <th rowspan="3" class="empty superKnight"></th>
+        </tr>
+        <tr>
+            <td class='water kill'>2640000</td>
+            <td class='water'>4548417</td>
+            <td class='water'>2325539</td>
+            <td class='basic'>2559136</td>
+            <td class='earth'>1816389</td>
+            <td class='earth'>1626607</td>
+            <td class='basic'>2948945</td>
+            <td class='basic'>2763896</td>
+            <td class='basic'>2724065</td>
+            <td class='basic'>2845882</td>
+            <td class='basic'>2702061</td>
+            <td class='basic'>2574322</td>
+            <td class='basic'>3209760</td>
+            <td class='basic'>2332288</td>
+        </tr>
+        <tr>
+            <td class='water kill'>3440000</td>
+            <td class='basic kill'>2792523</td>
+            <td class='earth'>1937280</td>
+            <td class='earth'>2056936</td>
+            <td class='earth'>1342312</td>
+            <td class='basic'>2330879</td>
+            <td class='earth'>1728996</td>
+            <td class='earth'>1997016</td>
+            <td class='earth'>1442825</td>
+            <td class='earth'>1939435</td>
+            <td class='earth'>1850064</td>
+            <td class='earth'>1856031</td>
+            <td class='earth'>2107984</td>
+            <td class='earth'>1558448</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th rowspan="3" class="guildmate">Punisher</th>
+            <td class='water kill'>1500000</td>
+            <td class='water'>4815190</td>
+            <td class='water'>6153950</td>
+            <td class='water'>5358326</td>
+            <td class='water'>4588731</td>
+            <td class='water'>5086487</td>
+            <td class='basic'>4622719</td>
+            <td class=''>0</td>
+            <td class='water'>4415324</td>
+            <td class='basic'>4137395</td>
+            <td class='earth'>2212224</td>
+            <td class='basic'>4838530</td>
+            <td class='water kill'>3379186</td>
+            <td class='water'>4601976</td>
+            <th rowspan="3" class="empty alef"></th>
+        </tr>
+        <tr>
+            <td class='water'>7219540</td>
+            <td class='basic'>5615054</td>
+            <td class='basic'>5623685</td>
+            <td class='basic'>5322422</td>
+            <td class='basic'>5297564</td>
+            <td class='water kill'>2049535</td>
+            <td class='basic'>1924826</td>
+            <td class=''>0</td>
+            <td class='basic'>5064749</td>
+            <td class='basic'>2866430</td>
+            <td class='water'>4291514</td>
+            <td class='water'>2341619</td>
+            <td class='earth'>3764618</td>
+            <td class='basic'>5492480</td>
+        </tr>
+        <tr>
+            <td class='basic'>6620447</td>
+            <td class='water'>1576735</td>
+            <td class='light'>1055073</td>
+            <td class='basic'>730085</td>
+            <td class='basic'>1891689</td>
+            <td class='light'>1122067</td>
+            <td class='water'>4277368</td>
+            <td class=''>0</td>
+            <td class='basic'>2253055</td>
+            <td class='basic'>4762238</td>
+            <td class='basic'>4787105</td>
+            <td class='water'>4847392</td>
+            <td class='earth'>2053940</td>
+            <td class='basic'>2658408</td>
+        </tr>
+        <tr>
+            <th class="dailytotal">Daily Total</th><td class="dailytotal dayone"></td>
+            <td class="dailytotal daytwo"></td><td class="dailytotal daythree"></td>
+            <td class="dailytotal dayfour"></td><td class="dailytotal dayfive"></td>
+            <td class="dailytotal daysix"></td><td class="dailytotal dayseven"></td>
+            <td class="dailytotal dayeight"></td><td class="dailytotal daynine"></td>
+            <td class="dailytotal dayten"></td><td class="dailytotal dayeleven"></td>
+            <td class="dailytotal daytwelve"></td><td class="dailytotal daythirteen"></td>
+            <td class="dailytotal dayfourteen"></td><td class="total"></td>
+        </tr>
+    </table>
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>

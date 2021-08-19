@@ -56,7 +56,7 @@ button {
 h1 {
     font-family: 'Tourney', cursive;
     font-size: 3em;
-    margin-bottom: -5px;
+    margin-bottom: -3px;
     color: rgb(185, 0, 0);
     text-shadow: 2px 2px white;
 }
@@ -64,7 +64,7 @@ h1 {
 h5 {
     font-family: 'Ruslan Display', cursive;
     font-size: 1.2em;
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
 }
 
 table {
@@ -149,6 +149,15 @@ td::selection {
 #absolutetotal {
     background-color: rgb(209, 255, 209);
     margin-right: 0;
+}
+
+.night-at-the-gallery {
+    background-color: rgb(202, 122, 122);
+}
+
+h1.night-at-the-gallery {
+    color: rgb(255, 244, 86);
+    text-shadow: 2px 2px black;
 }
 
 .fire {
@@ -456,5 +465,21 @@ td::selection {
     background-size: 150px;
     background-position-x: -37px;
     background-position-y: 1px;
+    background-repeat: no-repeat; 
+}
+
+.akayuki {
+    background-image: url('assets/Akayuki.png');
+    background-size: 150px;
+    background-position-x: -25px;
+    background-position-y: -10px;
+    background-repeat: no-repeat; 
+}
+
+.noxia {
+    background-image: url('assets/Noxia.png');
+    background-size: 210px;
+    background-position-x: -51px;
+    background-position-y: -48px;
     background-repeat: no-repeat; 
 }
