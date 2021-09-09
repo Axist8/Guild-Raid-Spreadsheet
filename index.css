@@ -151,6 +151,24 @@ td::selection {
     margin-right: 0;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #505050;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(153, 253, 132);
+}
+
 .night-at-the-gallery {
     background-color: rgb(202, 122, 122);
 }
