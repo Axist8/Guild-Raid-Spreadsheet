@@ -160,6 +160,15 @@ h1.night-at-the-gallery {
     text-shadow: 2px 2px black;
 }
 
+.forbidden-forest {
+    background-color: rgb(75, 110, 13);
+}
+
+h1.forbidden-forest {
+    color: rgb(255, 180, 88);
+    text-shadow: 3px 2px rgb(68, 37, 141);
+}
+
 .fire {
     background-color: #c75851;
 }
@@ -481,5 +490,29 @@ h1.night-at-the-gallery {
     background-size: 210px;
     background-position-x: -51px;
     background-position-y: -48px;
+    background-repeat: no-repeat; 
+}
+
+.kamael {
+    background-image: url('assets/kamael.png');
+    background-size: 115px;
+    background-position-x: -10px;
+    background-position-y: -2px;
+    background-repeat: no-repeat; 
+}
+
+.youngErina {
+    background-image: url('assets/youngerina.png');
+    background-size: 175px;
+    background-position-x: -35px;
+    background-position-y: -20px;
+    background-repeat: no-repeat; 
+}
+
+.rie {
+    background-image: url('assets/Rie.png');
+    background-size: 115px;
+    background-position-x: -5px;
+    background-position-y: -28px;
     background-repeat: no-repeat; 
 }
