@@ -158,15 +158,18 @@ td::selection {
 }
 
 ::-webkit-scrollbar-track {
-    background: #505050;
+    background: #DAD299;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(153, 253, 132);
+    background: rgb(16, 29, 13);
 }
 
 .night-at-the-gallery {
