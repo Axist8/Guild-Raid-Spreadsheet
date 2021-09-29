@@ -190,6 +190,10 @@ h1.forbidden-forest {
     text-shadow: 3px 2px rgb(68, 37, 141);
 }
 
+.circus-of-horros {
+    background-color: rgb(196, 100, 36);
+}
+
 .fire {
     background-color: #c75851;
 }
@@ -535,5 +539,37 @@ h1.forbidden-forest {
     background-size: 115px;
     background-position-x: -5px;
     background-position-y: -28px;
+    background-repeat: no-repeat; 
+}
+
+.oldErina {
+    background-image: url('assets/olderina.jpg');
+    background-size: 155px;
+    background-position-x: -48px;
+    background-position-y: -15px;
+    background-repeat: no-repeat; 
+}
+
+.superFP {
+    background-image: url('assets/superFP.png');
+    background-size: 125px;
+    background-position-x: -18px;
+    background-position-y: -22px;
+    background-repeat: no-repeat; 
+}
+
+.mk2 {
+    background-image: url('assets/mk2.png');
+    background-size: 125px;
+    background-position-x: -15px;
+    background-position-y: -2px;
+    background-repeat: no-repeat; 
+}
+
+.beth {
+    background-image: url('assets/Beth.png');
+    background-size: 130px;
+    background-position-x: -10px;
+    background-position-y: -20px;
     background-repeat: no-repeat; 
 }
