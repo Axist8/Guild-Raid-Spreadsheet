@@ -191,7 +191,12 @@ h1.forbidden-forest {
 }
 
 .circus-of-horros {
-    background-color: rgb(196, 100, 36);
+    background-color: rgb(168, 88, 34);
+}
+
+h1.circus-of-horros {
+    color: rgb(255, 208, 0);
+    text-shadow: 3px 2px red;
 }
 
 .fire {
